@@ -1,0 +1,139 @@
+/* Media Queries based on Bootstrap grid system */
+
+/* LARGE DEVICES - desktops */
+@media (min-width: 1200px) {
+  .card-img-overlay {
+    padding: 15rem;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+  .card-img-overlay {
+    padding: 5rem;
+  }
+}
+
+/* MEDIUM DEVICES - laptops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card-img-overlay {
+    padding: 5rem;
+  }
+}
+
+/* SMALL DEVICES - tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  #support-img {
+    padding-top: 7rem;
+  }
+  .contactme-btn {
+    margin-bottom: 3rem;
+  }
+  #footer-menu li a {
+    margin: 8px;
+    font-size: 14px;
+  }
+  #content-c-left {
+    padding-top: 0;
+  }
+  #contact-info {
+    padding-top: 8px;
+  }
+}
+#footer-copyrights p {
+  font-size: 14px;
+}
+.card-img-top {
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+}
+#custom-container {
+  width: 16rem;
+}
+
+/* EXTRA SMALL - phone landscape  */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #start-card a {
+    width: 50%;
+    height: 30%;
+    font-size: 16px;
+    padding: 18px;
+    text-align: center;
+  }
+  #custom-container {
+    width: 10rem;
+  }
+}
+
+/* EXTRA-SMALL DEVICES - mobile phones UP Until iphone 320 size testing at 500px width  */
+@media (max-width: 576px) {
+  #home-heading h3 {
+    font-size: 26px;
+  }
+  #home-heading h4 {
+    font-size: 20px;
+  }
+  #start-card h5 {
+    font-size: 18px;
+  }
+  #start-card a {
+    width: 50%;
+    height: 30%;
+    font-size: 12px;
+    padding: 18px;
+    text-align: center;
+  }
+  .card-img-overlay {
+    padding-top: 5rem;
+  }
+  #custom-container {
+    width: 6rem;
+  }
+  #home-cover {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 380px) {
+  #home-cover {
+    background-attachment: scroll;
+  }
+  .card {
+    margin: 25px;
+  }
+  .how-design {
+    padding: 2rem;
+  }
+  .card-img-overlay {
+    padding-top: 3rem;
+  }
+  .btn.btn-general.btn-white {
+    padding: 2px;
+  }
+  #about-bg-diagonal {
+    width: 90%;
+    border-left: 150px solid #f2e9e4;
+    border-top: 450px solid transparent;
+  }
+  .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img-about-parallax {
+    background-size: 90%;
+    background-position: 10% 0%;
+  }
+  #about-content-box {
+    height: 100%;
+  }
+  #about-desc {
+    padding: 10px;
+  }
+  .btn-lg.btn-general.btn-white {
+    padding: 9px;
+  }
+}

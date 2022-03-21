@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Web developer contact</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <div class="custom-wrapper">
+            <a class="navbar-brand" href="#thanks">Thank you</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#my-menu"
+              aria-controls="my-menu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="my-menu">
+              <div class="navbar-nav">
+                <ul>
+                  <li>
+                    <a class="nav-link" href="./index">Home</a>|
+                  </li>
+                  <li><a class="nav-link" href="./about">My Work</a>|</li>
+                  <li>
+                    <a class="nav-link" href="./pricing">Pricing</a>|
+                  </li>
+                  <li><a class="nav-link active" href="./contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="contact">
+      <div class="content-box-contact">
+        <div
+          class="content-title head wow animate__animated animate__fadeInDown"
+          data-wow-duration="1s"
+          data-wow-delay="0"
+        >
+          <h3>Contact</h3>
+          <div class="content-underline"></div>
+        </div>
+        <div
+          class="container wow animate__animated animate__fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0"
+        >
+          <div class="row">
+            <div class="col-md-6">
+              <div id="content-c-left">
+                <h3>Web development with unlimited possibilities</h3>
+                <p>
+                  If you are looking to gain an advantage over your competitors
+                  with an industry leading website, then let’s get started! <br><br>
+                  Contact me today for a free consultation.
+                </p>
+                <div id="contact-info" class="text-left">
+                  <address>
+                    <i class="fas fa-map-marker-alt"></i> Located in Budapest
+                    <br />
+                    Working remotely all over the world
+                  </address>
+                  <div id="email">
+                    <p>
+                      <i class="far fa-envelope"></i> Email me your enquiries
+                      directly on <br />
+                      info@natasha-benyak.com
+                    </p>
+                  </div>
+                  <div id="linked">
+                    <p>
+                      <i class="fab fa-instagram"></i> Get in touch via
+                      <a
+                        href="https://www.instagram.com/natasha_codes"
+                        target="_blank"
+                      >
+                        Instagram</a
+                      >
+                    </p>
+                  </div>
+                  <div id="insta">
+                    <p>
+                      <i class="fab fa-linkedin"></i>Let's connect via
+
+                      <a
+                        href="https://www.linkedin.com/in/natasha-benyak"
+                        target="_blank"
+                      >
+                        LinkedIn</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="alert"></div>
+
+              <!-- form for email sending  -->
+              <form method="post" action="">
+                <div class="form-group">
+                  <label for="full-name">Your Name</label>
+                  <input
+                    id="full-name"
+                    name="name"
+                    class="form-control"
+                    type="text"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email Address</label>
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >I'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Your Message</label>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="5"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  name="submit"
+                  class="btn btn-general btn-color"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="thank-you-card" class="card w-75 mx-auto">
+        <img
+          class="card-img-top img-fluid img-contact"
+          src="./img/top-pricecard.jpg"
+          alt="front"
+        />
+        <div class="card-body">
+        <p id="thanks" class="text-center">
+          Thank you for visiting my page. I hope you found your digital
+          solutions and inspiration here!
+        </p></div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div id="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="footer-copyrights">
+                <p>
+                  Copyrights &copy; 2020 All Rights Reserved by Natasha Benyak
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+              <div id="footer-menu">
+                <ul>
+                  <li><a href="./index">Home</a>|</li>
+                  <li><a href="./about">My Work</a>|</li>
+                  <li><a href="./pricing">Pricing</a>|</li>
+                  <li><a href="./contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript links (jQuery; popper; bootstrap; custom JS) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="./custom.js"></script>
+  </body>
+</html>
